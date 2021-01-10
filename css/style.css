@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 1em;
+    background-color: #f7f7f7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container{
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid #ada000;
+}
+
+a {
+    font-size: 1.1em;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin: 0;
+}
+
+a:hover {
+    border-bottom: 2px solid #ce433c;
+}
+
+p {
+    font-family: Oswald, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#logo-picture{
+    padding: 1em 0;
+    height: 150px;
+}
+
+#logo-text {
+    display: flex;
+    width: 100%;
+    font-family: Oswald, sans-serif;
+    font-size: 1.9em;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 1em 0;
+    background-color: #ada000;
+    color: white;
+    font-size: 1.1em;
+}
+
+#main-nav-list {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+main {
+    display: flex;
+}
+
+aside{
+    flex-grow: 1;
+    flex-basis: 20%;
+    background-color: #ada000;
+    min-width: 100px;
+}
+
+#side-nav {
+    padding-left: 1em;
+}
+
+#side-nav-list li:not(:nth-child(1)){
+    padding-top: 10px;
+}
+
+#atricle-contianer{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    flex-basis: 80%;
+    margin: 0 1em;
+}
+
+#articles-container > article > img {
+    height: 300px;
+    width: 40%;
+    max-width: 300px;
+    object-fit: cover;
+    border: 3px solid #ada000;
+    
+}
+
+article {
+    display: flex;
+}
+
+article:not(:last-child) {
+    padding-bottom: 1em;
+}
+
+#article-content{
+    max-height: 300px;
+    overflow: auto;
+}
+
+#articles-container > article:nth-child(even) > img {
+    order: 1;
+}
+
+#articles-container > article:nth-child(odd) > div {
+    padding-left: 1em;
+}
+
+#articles-container > article:nth-child(even) > div {
+    padding-right: 1em;
+}
+
+footer {
+    margin-top: 1em;
+    padding-bottom: 1em;
+    background-color: #ada000;
+}
+
+#footer-nav {
+    display: flex;
+    justify-content: center;
+  } 
+  
+#footer-nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+ 
+
+
+
+
+

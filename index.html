@@ -3,89 +3,91 @@
   <head>
     <title>My blog</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-
   <body>
-    <header>
-      <div class="logo">
-        <img src="./src/image/news-logo.png" alt="logo" />
-      </div>
-      <nav class="menu">
-        <ul>
-          <li><a class="active" href="#">Home</a></li>
-          <li><a href="#">World</a></li>
-          <li><a href="#">Bussiness</a></li>
-          <li><a href="#">Technology</a></li>
-          <li><a href="#">Health</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="main">
-      <div class="sideNav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">World</a></li>
-          <li><a href="#">Bussiness</a></li>
-          <li><a href="#">Technology</a></li>
-          <li><a href="#">Health</a></li>
-        </ul>
-      </div>
+    <div id="container">
+        <header>
+            <div id="logo-container">
+                <img src="image/news-logo.png" id="logo-picture" alt="New logo" />
+                <p id="logo-text">World's Bracking News</p>
+            </div>
+            <nav id="main-nav">
+                <ul id="main-nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Bussiness</a></li>
+                    <li><a href="#">Tech</a></li>
+                    <li><a href="#">Storts</a></li>
+                    <li><a href="#">Entertainment</a></li>
+                    <li><a href="#">Education</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <nav id="side-nav">
+                    <ul id="side-nav-list">
+                        <li><a href="#">Latest</a></li>
+                        <li><a href="#">Most read</a></li>
+                        <li><a href="#">My Reads</a></li>
+                        <li><a href="#">Cities</a></li>
+                        <li><a href="#">Opinion</a></li>
+                    </ul>
+                </nav>
 
-      <div class="detailView">
-        <div class="container">
-          <div class="image1">
-            <img src="./src/image/dog.jpeg" alt="logo" />
-          </div>
-          <div class="news1">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium.
-          </div>
-        </div>
+            </aside>
+            <section id="articles-container">
+            <article>
+                <img id="article-image" src="image/codeEvil.jpg" />
+                <div id="article-content">
+                    <h2>The code of evil</h2>
+                    <p>After weeks of research, one gloomy November afternoon, Christian Rossow found himself in the middle of world politics completely by accident. Sitting in an office just big enough for two desks and a cabinet he was working his way through the mass of numbers blinking on his computer screen when he found something unusual.
 
-        <div class="container">
-          <div class="image1">
-            <img src="./src/image/dog.jpeg" alt="logo" />
-          </div>
-          <div class="news1">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium.
-          </div>
-        </div>
+                        The numbers came from the basement one level below, from a room without windows. Only four people besides him had a key. The room is the maximum-security lab of the university he worked for at the time. Whenever Rossow had to go down there he tried to be quick. The room was cold and noisy, there was an old air con keeping the temperature at a steady 19 degrees. This was because of the 15 high-performance computers in the lab, big as wardrobes and highly sensible to heat. Rossow used them as guinea pigs. He would infect them with the latest viruses, Trojans and worms, sent to him daily by the manufacturers of anti-virus programmes. On the screen in his office he was able to assess how much harm each virus can do. Only a handful of computers were connected to the lab in the basement, through a special programme.
+                    </p>
 
-        <div class="container">
-          <div class="image1">
-            <img src="./src/image/dog.jpeg" alt="logo" />
-          </div>
-          <div class="news1">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium.
-          </div>
-        </div>
-      </div>
+                </div>
+            </article>
+            <article>
+                <img id="article-image" src="image/codeEvil.jpg" />
+                <div id="article-content">
+                    <h2>The code of evil</h2>
+                    <p>After weeks of research, one gloomy November afternoon, Christian Rossow found himself in the middle of world politics completely by accident. Sitting in an office just big enough for two desks and a cabinet he was working his way through the mass of numbers blinking on his computer screen when he found something unusual.
+
+                        The numbers came from the basement one level below, from a room without windows. Only four people besides him had a key. The room is the maximum-security lab of the university he worked for at the time. Whenever Rossow had to go down there he tried to be quick. The room was cold and noisy, there was an old air con keeping the temperature at a steady 19 degrees. This was because of the 15 high-performance computers in the lab, big as wardrobes and highly sensible to heat. Rossow used them as guinea pigs. He would infect them with the latest viruses, Trojans and worms, sent to him daily by the manufacturers of anti-virus programmes. On the screen in his office he was able to assess how much harm each virus can do. Only a handful of computers were connected to the lab in the basement, through a special programme.
+                    </p>
+
+                </div>
+            </article>
+            <article>
+                <img id="article-image" src="image/codeEvil.jpg" />
+                <div id="article-content">
+                    <h2>The code of evil</h2>
+                    <p>After weeks of research, one gloomy November afternoon, Christian Rossow found himself in the middle of world politics completely by accident. Sitting in an office just big enough for two desks and a cabinet he was working his way through the mass of numbers blinking on his computer screen when he found something unusual.
+
+                        The numbers came from the basement one level below, from a room without windows. Only four people besides him had a key. The room is the maximum-security lab of the university he worked for at the time. Whenever Rossow had to go down there he tried to be quick. The room was cold and noisy, there was an old air con keeping the temperature at a steady 19 degrees. This was because of the 15 high-performance computers in the lab, big as wardrobes and highly sensible to heat. Rossow used them as guinea pigs. He would infect them with the latest viruses, Trojans and worms, sent to him daily by the manufacturers of anti-virus programmes. On the screen in his office he was able to assess how much harm each virus can do. Only a handful of computers were connected to the lab in the basement, through a special programme.
+                    </p>
+
+                </div>
+            </article>
+
+            </section>
+        </main>
+        <footer>
+            <nav id="footer-nav">
+                <ul id="footer-nav-list">
+                    <li><a href="#">Fasebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </nav>
+            <div id="copyright">
+                <p>All right reserved @ made with News</p>
+            </div>
+        </footer>
     </div>
-    <div class="clear"></div>
-    <footer>
-      @copyright by News
-    </footer>
-    <script src="src/index.js"></script>
   </body>
+
+
 </html>
